@@ -134,33 +134,33 @@
 
 // Q7 :
 
-// function primnum(arr) {
-//     let counter = 0, true_count_num = 0, number;
-//     for (let j = 0; j < arr.length; j++)
-//     {
-//         number = arr[j];
-//         for (let i = 1; i <= number; i++)
-//         {
-//             if (number % i == 0)
-//             {
-//                 counter++;
-//             }
-//         }
-//         if (counter == 2)
-//         {
-//             true_count_num++;
-//             counter=0;
-//         }
-//         else 
-//         {
-//             counter=0;
-//             return (false);
-//         }
-//     }
-//     return (true);
-// }
-//   console.log(primnum(arr = [7, 11, 13]));
-//   console.log(primnum(arr = [51, 9, 15]));
-//   console.log(primnum(arr = [21, 23, 29]));
+function primnum(arr) {
+    let counter = 0, true_count_num = 0, number;
+    for (let j = 0; j < arr.length; j++)
+    {
+        number = arr[j];
+        for (let i = 1; i <= number; i++)
+        {
+            if (number % i == 0)
+            {
+                counter++;
+            }
+        }
+        if (counter == 2)
+        {
+            true_count_num++;
+            counter=0;
+        }
+        else 
+        {
+            counter=0;
+            return (false);
+        }
+    }
+    return (true);
+}
+  console.log(primnum(arr = [7, 11, 13]));
+  console.log(primnum(arr = [51, 9, 15]));
+  console.log(primnum(arr = [21, 23, 29]));
 // ----------------------------------------------------------------
 
