@@ -31,18 +31,18 @@
 
 // ----------------------------------------------------------------
 // Q3:
-function maxlen(arr) {
-    let max = arr[0].length;
-    for (let i = 1; i < arr.length; i++) {
-        if (arr[i].length > max) {
-            max = arr[i].length;
-        }
-    }
-    return (max);
-}
-console.log(maxlen(arr = ["hello" ,"its", "me"]));
-console.log(maxlen(arr = ["aiman","zidane"]));
-console.log(maxlen(arr = ["full", "stack","course"]));
+// function maxlen(arr) {
+//     let max = arr[0].length;
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i].length > max) {
+//             max = arr[i].length;
+//         }
+//     }
+//     return (max);
+// }
+// console.log(maxlen(arr = ["hello" ,"its", "me"]));
+// console.log(maxlen(arr = ["aiman","zidane"]));
+// console.log(maxlen(arr = ["full", "stack","course"]));
 
 // ----------------------------------------------------------------
 
