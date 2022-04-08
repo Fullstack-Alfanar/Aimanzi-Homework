@@ -1,3 +1,5 @@
+// mail validation
+
 let mail;
 mail = prompt("insert your mail");
 function isMailValid(mail) {
