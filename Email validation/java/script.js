@@ -3,7 +3,8 @@
 let mail;
 mail = prompt("insert your mail");
 function isMailValid(mail) {
-    let counter = 0, arr = [], strcounter1 = 0; character = [], domaincounter = 0;
+    let counter = 0, arr = [], strcounter1 = 0; character = [], domaincounter = 0, numbers = [];
+    numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
     character = [" ", "!", "#", "$", "%", "&", "'", "*", "+", "-", "/", "=", "?", "^", "_", "`", "{", "|", "}", "~"];
     arr = mail.split("");
     // testing for the local part ;
@@ -41,8 +42,8 @@ function isMailValid(mail) {
         if (arr[0] == "-" || arr[domaincounter] == "-")
             return false;
     }
-    for (let i = strcounter1 + 1; i <= domaincounter; i++) { //digits 0 to 9, provided that top-level domain names are not all-numeric;
-        for (let x = 0; x <numbers.length; x++) {
+    for (let i = strcounter1 + 1; i <= domaincounter; i++) { //digits 0 to 9, provided that top-level domain names are not numeric;
+        for (let x = 0; x < numbers.length; x++) {
             if (arr[i] == numbers[x])
                 return false;
         }
