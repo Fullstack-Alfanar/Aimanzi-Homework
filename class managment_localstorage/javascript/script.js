@@ -74,6 +74,7 @@ function get_local_storage() {
 get_local_storage();
 document.getElementById("cleardata").addEventListener("click",function(){
 localStorage.clear();
+location.reload();
 });
     
 
