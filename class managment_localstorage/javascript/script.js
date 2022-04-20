@@ -13,7 +13,6 @@ function datafun(studentname, studentscore) {
                 stdname: studentname.value,
                 stdscore: parseInt(studentscore.value),
             };
-
             display(studentname.value, studentscore.value);
             set_local_storage(obj);
 
