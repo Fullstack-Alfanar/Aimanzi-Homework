@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+
+    <h1>Student Managment</h1>
+    <div class="maindiv">
+        <div>
+            <label>Student name : </label>
+            <input type="text" placeholder="Enter student name" name="" id="name" required>
+            <label class="lb">Student score : </label>
+            <input type="text" placeholder="Enter student score" name="" id="score" required>
+        </div>
+        <div class="lb">
+            <button onclick="datafun()">SEND </button>
+            <button id="cleardata">Clear</button>
+        </div>
+    </div>
+    <div class="div1">
+        <div class="sna">
+            <h3>Students Number</h3>
+            <label id="stc" ondblclick="datafun()"></label>
+        </div>
+        <div class="sna1">
+            <h3>Students Average</h3>
+            <label id="sta" ondblclick="datafun()"></label>
+
+        </div>
+    </div>
+    <table class="tabel">
+        <thead>
+            <tr>
+                <td class="sna2">
+                    <h3>Student Name</h3>
+                <td class="sna3">
+                    <h3>Student Score</h3>
+            </tr>
+        </thead>
+        <tbody id="dataview">
+
+        </tbody>
+
+    </table>
+    <script src="/javascript/script.js"></script>
+</body>
+
+</html>
