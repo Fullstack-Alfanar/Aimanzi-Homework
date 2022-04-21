@@ -1,0 +1,96 @@
+h1 {
+    text-align: center;
+}
+
+.maindiv {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lb {
+    margin-left: 20px;
+}
+
+.div1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding-left: 100px;
+
+}
+
+.tabel {
+    margin: 30px 0 0 475px;
+}
+
+.sna {
+    width: 150px;
+    height: 100px;
+    border: solid;
+    color: black;
+    background-image: url(/imgs/2017_05_22_27382_1495457626._large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sna1 {
+    margin-right: 50px;
+    margin-left: 2px;
+    width: 150px;
+    height: 100px;
+    border: solid;
+    color: black;
+    background-image: url(/imgs/average-300x200.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sna2 {
+    margin-right: 50px;
+    width: 150px;
+    height: 100px;
+    border: solid;
+    color: black;
+    text-align: center;
+    background-image: url(/imgs/2017_05_22_27382_1495457626._large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.sna3 {
+    margin-right: 50px;
+    width: 150px;
+    height: 100px;
+    border: solid;
+    color: black;
+    text-align: center;
+    background-image: url(/imgs/grades.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.td1 {
+    text-align: center;
+    width: 300px;
+    max-height: auto;
+    border: solid;
+    color: black;
+
+}
+.tbody{
+    width: 300pxpx;
+    height: 100px;
+    border: solid;
+    color: black;
+
+}
+
