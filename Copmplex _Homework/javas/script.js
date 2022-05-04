@@ -7,15 +7,15 @@ function arrLen(array) {
         arrArrange(maxNum);
         filterArr(maxNum);
     }
-    function getMaxNum(arrNum) { // max number function 
+    function getMaxNum(arrNum) { // max number function ;
         return Math.max(...arrNum);
     }
 
-    function arrArrange(number) {  //max number arrangment  array
+    function arrArrange(number) {  //max number arrangment  array;
         newArr.push(number);
     }
 
-    function filterArr(number) { // filter the max number from the array
+    function filterArr(number) { // filter the max number from the array;
         array = array.filter(num => num !== number);
     }
     return newArr;
