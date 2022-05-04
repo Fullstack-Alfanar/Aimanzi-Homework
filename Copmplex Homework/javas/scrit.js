@@ -1,4 +1,4 @@
-let arr = [10, 4, 30, 13];
+let Arr = [10, 4, 30, 13];
 
 function arrLen(array) {
     let newArr = [], maxNum;
@@ -20,8 +20,8 @@ function arrLen(array) {
     }
     return newArr;
 }
-arrLen(arr);
-console.log(arrLen(arr));
+arrLen(Arr);
+console.log(arrLen(Arr));
 
 
 
