@@ -1,7 +1,7 @@
 //Q1 :
 
-function fun1(Name) {
-    console.log(Name);
+function fun1(myname) {
+    console.log(myname);
   }
   function fun2(callback) {
     callback("Aiman Zidane");
