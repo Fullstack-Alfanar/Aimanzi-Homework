@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Password Validation</h1>
+        <div>
+            <div class="input-container">
+                <label>Email Password</label>
+                <input placeholder="Insert Your Password" type="password" id="psw">
+            </div>
+
+            <div class="button-container">
+                <button onclick="checkMatchingFunction()">Check Password</button>
+            </div>
+            <div class="criteriaes-container">
+                <h3>The Password Must Contain The Following Criteriaes :</h3>
+                <ul>
+                    <li>
+                        <label> contain at least 8 or more Characters</label>
+                        <label id="length" class="varified">ok</label>
+                    </li>
+                    <li>
+                        <label> contain a Number </label>
+                        <label id="number" class="varified">ok</label>
+
+                    </li>
+                    <li>
+                        <label> contain a Special Characters</label>
+                        <label id="special_char" class="varified">ok</label>
+                    </li>
+                    <li>
+                        <label> contain an Uppercase Letters</label>
+                        <label id="uper" class="varified">ok</label>
+                    </li>
+                    <li>
+                        <label> contain an Lowerpercase letters</label>
+                        <label id="lower" class="varified">ok</label>
+                    </li>
+                    <li>
+                        <label> contain an English Lettes Only</label>
+                        <label class="varified" id="english_let">ok</label>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <script src="/javas/script.js"></script>
+
+</body>
+
+</html>
