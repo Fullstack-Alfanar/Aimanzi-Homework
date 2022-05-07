@@ -27,6 +27,7 @@ h1 {
     text-align: center;
     font-size: 26px;
     padding-bottom: 20px;
+    color: blue;
 }
 
 .input-container {
@@ -94,13 +95,9 @@ h1 {
 .active {
     text-transform: uppercase;
     float: right;
-    color: rgb(5, 150, 5);
-    font-size: 14px;
-    font-weight: bolder;
-}
-
-.criteriaes-container .unvarifaied {
-    display: none;
+    color: green;
+    font-size: large;
+    font-weight: bold;
 
 }
 
@@ -108,6 +105,6 @@ h1 {
     text-transform: uppercase;
     float: right;
     color: red;
-    font-size: 14px;
+    font-size: large;
     font-weight: bolder;
 }
