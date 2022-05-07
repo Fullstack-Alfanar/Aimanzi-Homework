@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Password Validation</h1>
+        <div>
+            <div class="input-container">
+                <label>Email Password</label>
+                <input onchange="checkFunction()" type="password" placeholder="Insert Your Password" id="psw">
+            </div>
+            <div class="criteriaes-container">
+                <h3>The Password Must Contain The Following Criteriaes :</h3>
+                <ul>
+                    <li id="length">
+                        <label> contain at least 8 or more Characters</label>
+                        <label class="Validation_status"></label>
+                    </li>
+                    <li id="number">
+                        <label> contain Numbers</label>
+                        <label class="Validation_status"></label>
+                    </li>
+                    <li id="special_char">
+                        <label> contain a Special Characters</label>
+                        <label class="Validation_status"></label>
+                    </li>
+                    <li id="uper"><label> contain an Uppercase Letters</label>
+                        <label class="Validation_status"></label>
+                    </li>
+                    <li id="lower"><label> contain an Lowerpercase letters</label>
+                        <label class="Validation_status"></label>
+                    </li>
+                    <li id="english_let"><label> contain an English Lettes Only</label>
+                        <label class="Validation_status"></label>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="/javas/script1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* to center all the body (up down left and right */
+body,
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 246, 238);
+}
+
+/* -------------------------------------------------- */
+.main {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.main h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(128, 118, 221);
+    text-shadow: 2px 2px 4px #999bad;
+
+}
+
+.input-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.input-container label {
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.input-container input {
+    padding: 10px;
+    font-size: medium;
+    color: black;
+    flex-grow: 1;
+}
+
+.criteriaes-container {
+    padding: 30px 30px 30px 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* to hide the ul dots */
+.criteriaes-container ul {
+    list-style: none;
+}
+
+.criteriaes-container h3 {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+
+.criteriaes-container ul li {
+    padding: 10px 0 10px 0px;
+    border-bottom: 1px dotted rgb(182, 177, 177);
+}
+
+.criteriaes-container label {
+    text-transform: capitalize;
+}
+
+.matching {
+    color:green;
+}
+
+.not-matching {
+    color:red;
+
+}
+
+
