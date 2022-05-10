@@ -1,12 +1,12 @@
 // Q1:
-document.getElementById("to").addEventListener("click", function () {
-    to_JSON();
-})
-document.getElementById("from").addEventListener("click", function () {
-    from_JSON();
-})
+// document.getElementById("to").addEventListener("click", function () {
+//     to_JSON();
+// })
+// document.getElementById("from").addEventListener("click", function () {
+//     from_JSON();
+// })
 
-// let x, item;
+let x, item;
 
 // books = [
 //     {
@@ -47,30 +47,30 @@ document.getElementById("from").addEventListener("click", function () {
 
 //  Q2:
 
-// let x;
-// document.getElementById("to").addEventListener("click", function () {
-//     to_JSON();
-// })
-// document.getElementById("from").addEventListener("click", function () {
-//     from_JSON();
-// })
+let y;
+document.getElementById("to").addEventListener("click", function () {
+    to_JSON();
+})
+document.getElementById("from").addEventListener("click", function () {
+    from_JSON();
+})
 
-// mycat = {
-//     Name: "catcat",
-//     Age: 3,
-//     Color: "gray",
-//     Is_Sterile: true,
-// };
+mycat = {
+    Name: "catcat",
+    Age: 3,
+    Color: "gray",
+    Is_Sterile: true,
+};
 
-// function to_JSON() {
-//     x = JSON.stringify(mycat);
-//     console.log(x);
-// }
+function to_JSON() {
+    x = JSON.stringify(mycat);
+    console.log(x);
+}
 
-// function from_JSON() {
-//     let yourcat = JSON.parse(x);
-//     console.log("Name :" + yourcat.Name + "\n" + "Age :" + yourcat.Age + "\n" + "Color :" + yourcat.Color + "\n" + "Is Sterile :" + yourcat.Is_Sterile);
-// }
+function from_JSON() {
+    let yourcat = JSON.parse(x);
+    console.log("Name :" + yourcat.Name + "\n" + "Age :" + yourcat.Age + "\n" + "Color :" + yourcat.Color + "\n" + "Is Sterile :" + yourcat.Is_Sterile);
+}
 
 
 
