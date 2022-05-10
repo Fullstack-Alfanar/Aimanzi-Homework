@@ -58,6 +58,11 @@ h1 {
     color: blue;
 
 }
+.main-tabel table tbody tr td img{
+
+    height: 50px;
+    width: 50px;
+}
 
 .main-tabel table {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);

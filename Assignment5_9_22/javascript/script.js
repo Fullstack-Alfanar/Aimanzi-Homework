@@ -1,12 +1,14 @@
 let arr = [];
 
+
 function inputfunction() {
+
     let pro_name = document.getElementById("productname");
     let pro_price = document.getElementById("productprice");
     let pro_category = document.getElementById("category");
     let pro_img = document.getElementById("productimg");
 
-    if (pro_name.value == "" || pro_price.value == "" || pro_category.value == "" || pro_img == "") {
+    if (pro_name.value == "" || pro_price.value == "" || pro_category.value == "" || pro_img.value == "") {
         alert("Missing Values")
     } else
         if (pro_price.value < 0) {
@@ -17,21 +19,19 @@ function inputfunction() {
                 prprice: pro_price.value,
                 prcatalog: pro_category.value,
                 primage: pro_img.value,
-
             };
 
             tabelFuny(pro_name.value, pro_price.value, pro_category.value, pro_img.value);
             set_local_storage(obj);
-            img_Set_Local_storae(obj1);
-
-            pro_name = "";
-            pro_price = "";
-            pro_category = "";
-            pro_img.value = "";
+            name = "";
+            price = "";
+            category = "";
+            image = "";
         }
 }
 
-function tabelFuny(pro_name, pro_price, pro_category, pro_img) {
+function tabelFuny(name, price, category, image) {
+
 
     let table = document.getElementById("datadisplay");
     let commontr = document.createElement("tr");
@@ -46,26 +46,26 @@ function tabelFuny(pro_name, pro_price, pro_category, pro_img) {
     let p_categorylabel = document.createElement("label");
 
     let p_imgdata = document.createElement("td");
-    let p_imglabel = document.createElement("label");
+    let p_imglabel = document.createElement("img");
 
-    p_namelabel.textContent = pro_name;
+    p_namelabel.textContent = name;
     p_namedata.appendChild(p_namelabel);
     commontr.appendChild(p_namedata);
     table.appendChild(commontr);
 
-    p_pricelabel.textContent = pro_price;
+    p_pricelabel.textContent = price;
     p_pricedata.appendChild(p_pricelabel);
     commontr.appendChild(p_pricedata);
     table.appendChild(commontr);
 
-    p_imglabel.src = pro_img;
-    p_imgdata.appendChild(p_imglabel);
-    commontr.appendChild(p_imgdata);
-    table.appendChild(commontr);
-
-    p_categorylabel.textContent = pro_category;
+    p_categorylabel.textContent = category;
     p_categorydata.appendChild(p_categorylabel);
     commontr.appendChild(p_categorydata);
+    table.appendChild(commontr);
+
+    p_imglabel.src = image;
+    p_imgdata.appendChild(p_imglabel);
+    commontr.appendChild(p_imgdata);
     table.appendChild(commontr);
 }
 
@@ -78,7 +78,7 @@ function get_local_storage() {
     if (localStorage.getItem("productdata")) {
         arr = JSON.parse(localStorage.getItem("productdata"));
         for (let i = 0; i < arr.length; i++) {
-            tabelFuny(arr[i].prname, arr[i].prprice, arr[i].primage, arr[i].prcatalog);
+            tabelFuny(arr[i].prname, arr[i].prprice, arr[i].prcatalog, arr[i].primage);
         }
     }
 }
