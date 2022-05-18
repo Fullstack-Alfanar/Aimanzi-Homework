@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 246, 238);
+}
+
+.main {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 20px;
+    color: blue;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container label {
+    font-size: larger;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.input-container input {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button-container button {
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: green;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+.criteriaes-container {
+    padding: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.criteriaes-container ul {
+    list-style: none;
+}
+
+.criteriaes-container h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.criteriaes-container ul li {
+    padding: 8px 0;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.criteriaes-container label {
+    text-transform: capitalize;
+}
+
+.criteriaes-container .varified {
+    display: none;
+}
+
+.active {
+    text-transform: uppercase;
+    float: right;
+    color: green;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.disactive {
+    text-transform: uppercase;
+    float: right;
+    color: red;
+    font-size: large;
+    font-weight: bolder;
+}

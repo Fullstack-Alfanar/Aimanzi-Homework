@@ -1,10 +1,10 @@
 //Q1 :
 
-// function fun1() {
-//     console.log("Aiman Zidane");
+// function fun1(Name) {
+//     console.log(Name);
 //   }
 //   function fun2(callback) {
-//     callback();
+//     callback("Aiman Zidane");
 //   }
 //    fun2(fun1);
 
@@ -37,14 +37,14 @@
 
 // Q4 :
 
-function randomNumber(num1, num2, num3, num4, num5) {
-  let arr = [], randomNum;
-  arr.push(num1, num2, num3, num4, num5);
-  return randomNum = arr[Math.floor(Math.random() * arr.length)];
-}
+// function randomNumber(num1, num2, num3, num4, num5) {
+//   let arr = [], randomNum;
+//   arr.push(num1, num2, num3, num4, num5);
+//   return randomNum = arr[Math.floor(Math.random() * arr.length)];
+// }
 
-function amazing(callback) {
-  const num = callback(42, 128, 37, 81, 66);
-  document.write("Num : " + num);
-}
-amazing(randomNumber);
+// function amazing(callback) {
+//   const num = callback(42, 128, 37, 81, 66);
+//   document.write("Num : " + num);
+// }
+// amazing(randomNumber);
