@@ -1,12 +1,13 @@
 //Q1 :
 
-// function fun1(Name) {
-//     console.log(Name);
-//   }
-//   function fun2(callback) {
-//     callback("Aiman Zidane");
-//   }
-//    fun2(fun1);
+function fun1(myname) {
+    console.log(myname);
+  }
+  function fun2(callback) {
+    callback("Aiman Zidane");
+  }
+   fun2(fun1);
+
 
 //----------------------------------------------------------------
 //   //Q2:
