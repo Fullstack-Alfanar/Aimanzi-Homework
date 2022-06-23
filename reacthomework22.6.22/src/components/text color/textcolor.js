@@ -1,6 +1,6 @@
 import { useState } from "react";
-// import ChangeColor from "../changecolor/changecolor.js"
 import "../text color/textcolor.css";
+import ChangeColor from "../change color/changecolor.js"
 
 
 function TextColor() {
@@ -17,7 +17,7 @@ function TextColor() {
                 <label style={{ color: Tcolor }}> Hello Im Changing My Color By React Hook</label>
             </div>
             <div className="HookProps">
-                {/* <ChangeColor /> */}
+                <ChangeColor COLOR={Tcolor}/>
             </div>
         </div>
     )
